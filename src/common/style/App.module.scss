@@ -1,0 +1,58 @@
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 28px;
+  position: relative;
+}
+
+
+.bit_icon {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+
+.efir_icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+
+  @media (max-width: 535px) {
+    display: none;
+  }
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+
+}
+
+.input_block {
+  display: flex;
+  align-items: center;
+}
+
+.block_header {
+  display: flex;
+  align-items: center;
+  min-height: 64px;
+  column-gap: 15px;
+
+  svg {
+    width: 60px;
+    height: 60px;
+  }
+}

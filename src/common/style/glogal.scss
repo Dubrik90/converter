@@ -1,0 +1,37 @@
+body {
+  color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  background: #1e192d;
+  font-family: Inter, Roboto, sans-serif;
+  overflow-x: hidden;
+}
+
+input,
+button {
+  font-family: Inter, Roboto, sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.loader {
+  position: absolute;
+  bottom: -80px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
